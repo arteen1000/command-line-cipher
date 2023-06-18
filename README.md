@@ -3,7 +3,9 @@
 Run `make` to build the program named `encrypt-me`. Options include:
 
 `--input`, `-i`: specify an input file to read from (default is `stdin`)
+
 `--output`, `-o`: specify an output file to write to (default is `stdout`), can be same as the input file
+
 `--decrypt`, `-d`: specify to decrypt the given input, default is to encrypt
 
 Beware that not all characters are printable to the terminal, so when encrypting, be sure to specify a file to write to in order to capture the full output.
